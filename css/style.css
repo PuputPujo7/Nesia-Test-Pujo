@@ -141,6 +141,7 @@ section h3 {
 .box .col-4 p {
 	color: #1b1b1b;
 }
+
 section p {
 	text-align: center;
 }
@@ -211,6 +212,28 @@ footer {
 		width:100%;
 		float: none;
 		margin-bottom: 20px;
+	}
+
+	.box .col-2 {
+		width:100%;
+		min-height: 200px;
+		float: none;
+		margin-bottom: 20px;
+		display: flex;
+	}
+
+	.box .col-2 .pic {
+		width:100%;
+		min-height: 200px;
+		float: none;
+		margin-bottom: 20px;
+		display: flex;
+	}
+	.container p iframe{
+		width:100%;
+		min-width: 200px;
+		margin:5 auto;
+		display: flex;
 	}
 }
 .whats-app {
