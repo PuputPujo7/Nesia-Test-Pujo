@@ -196,9 +196,16 @@ footer {
 		transform: rotate(360deg);
 	}
 }
+
+@media screen and (max-width: 1024px){
+	.container {
+		width:100%;
+		display: grid;}
+}
+
 @media screen and (max-width: 768px){
 	.container {
-		width:90%;
+		width:100%;
 	}
 	header h1 {
 		text-align: center;
